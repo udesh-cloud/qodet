@@ -55,6 +55,48 @@ A responsive, high-performance landing page for Qodet, a digital transformation 
 - **Colors & Fonts**: Modified in `tailwind.config.ts` and `app/globals.css`.
 - **Content**: Edit individual components in the `components/` directory.
 
+## Deployment
+
+### Vercel Deployment
+
+This project is configured for easy deployment on Vercel:
+
+1. **Connect to Vercel:**
+   - Go to [vercel.com](https://vercel.com)
+   - Sign in with your GitHub account
+   - Click "Add New Project"
+   - Import the repository: `udesh-cloud/qodet`
+
+2. **Configure Project:**
+   - Framework Preset: **Next.js** (auto-detected)
+   - Root Directory: `qodet-website-frontend` (if the repo contains multiple folders)
+   - Build Command: `npm run build` (auto-detected)
+   - Output Directory: `.next` (auto-detected)
+   - Install Command: `npm install` (auto-detected)
+
+3. **Environment Variables (if needed):**
+   - Add any required environment variables in the Vercel dashboard
+   - For this project, no environment variables are currently required
+
+4. **Deploy:**
+   - Click "Deploy"
+   - Vercel will automatically build and deploy your project
+   - Your site will be live at a `*.vercel.app` URL
+
+5. **Custom Domain (Optional):**
+   - Go to Project Settings → Domains
+   - Add your custom domain
+
+### Manual Deployment
+
+```bash
+# Build the project
+npm run build
+
+# Start production server
+npm start
+```
+
 ## License
 
 **Copyright © 2025 Qodet. All rights reserved.**
