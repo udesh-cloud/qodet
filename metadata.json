@@ -1,0 +1,5 @@
+{
+  "name": "Custom Solutions Landing Page",
+  "description": "A responsive landing page section featuring custom solutions, built with React, Tailwind CSS, and shadcn/ui components.",
+  "requestFramePermissions": []
+}
