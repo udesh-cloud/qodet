@@ -291,7 +291,7 @@ export const CustomSolutionsSection = (): React.JSX.Element => {
   // 4. UI/UX Graphic - Design Tools
   const uiUxSvg = (
     <svg
-      viewBox="0 0 100 100"
+      viewBox="0 0 100 110"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className="w-16 h-16 md:w-20 md:h-20 transition-transform duration-500 group-hover:-rotate-6 group-hover:scale-110"
